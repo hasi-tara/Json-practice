@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-info {
+  display: flex;
+  flex-direction: row;
+}
+.more:hover {
+  text-shadow: 4px 4px 4px gray;
+}
+.card-info_title {
+  color: blueviolet;
+  font-weight: 900;
+}
+.card-sepperatore {
+  border: 1px solid blueviolet;
+  width: 700px;
+  height: 1px;
+  margin: 24px 0;
+}
+.card-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-btn {
+  color: rgb(2, 101, 101);
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: rgb(89, 200, 200);
+  padding: 4px 8px;
+  margin: 40px 0 0 ;
+}
+.del-btn {
+  margin: 40px 20px 0;
+  color: rgb(101, 2, 2);
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: rgb(205, 110, 110);
+  height: 36px;
+}
+.more {
+  color: brown;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}

@@ -1,0 +1,18 @@
+label {
+  font-size: 2rem;
+  color: blue;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+.discard-btn {
+  background-color: rgb(242, 87, 87);
+  color: rgb(60, 11, 11);
+}
